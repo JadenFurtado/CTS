@@ -2,7 +2,7 @@
 
 Capture the signal!
 
-The work in this repo is heavily influenced by work done by <a href="https://github.com/capturethesignal/cts-backend">here</a> Capture the Signal (CTS)
+The work in this repo is heavily influenced by work done <a href="https://github.com/capturethesignal/cts-backend">here</a>, by Capture the Signal (CTS)
 
 I have used my own docker container for the purposes of compiling and running the GRC files, however, the idea behind it remains largely the same as done in the CTS repos
 
