@@ -1,0 +1,9 @@
+.config/
+.cache/
+.gnuradio/
+*.grc
+*.py
+*.iqdata
+.bash_history
+docker-compose.yml
+core

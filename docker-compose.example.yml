@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  challenge_1:
+    container_name: challenge_<number>
+    image: capturethesignal
+    network_mode: host
+    working_dir: /root
+    volumes:
+      - ./Challenge_<number>/:/root/
+    command: bash -c "grcc <stand-alone grc file to compile> && python3 <compiled filename>" 
+    ports:
+      - "<port mapping here>:<port mapping here>"
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+  
