@@ -8,6 +8,12 @@ I have used my own docker container for the purposes of compiling and running th
 
 ## Usage:
 
+Build the base container using the command:
+
+```
+docker build -t capturethesignal .
+```
+
 Add the GRC files required for generating the challenge RoIP signals in the Challenge_<challenge id> folder.
 Make necessary configuration changes to the docker-compose file. 
 
