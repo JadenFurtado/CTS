@@ -28,3 +28,5 @@ docker-compose up
 ```
 docker-compose up Challenge_<challenge_id>
 ```
+
+Note: While the work done previously works fine, it breaks for newer versions of GNU Radio as they have shifted from XML to YAML :) Also, I had a hard time making changes to the challenges and so, decided to go ahead and build this based of that.
